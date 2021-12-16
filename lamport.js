@@ -15,7 +15,8 @@ function randomString(elementSize) {
 
 /**
  *
- * @param {Integer} n
+ * @param {Integer} keySize
+ * @param {Integer} elementSize
  * @returns
  */
 function randomPrivateKey(keySize, elementSize) {
@@ -30,7 +31,7 @@ function randomPrivateKey(keySize, elementSize) {
  * Hash and return hex
  *
  * @param {String} str
- * @returns string
+ * @returns
  */
 function hash(str) {
      return crypto.createHash('sha256').update(str).digest(ENCODING);
