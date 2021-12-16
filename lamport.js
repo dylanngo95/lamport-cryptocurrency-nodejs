@@ -18,10 +18,10 @@ function randomString(elementSize) {
  * @param {Integer} n
  * @returns
  */
-function randomPrivateKey(keySize, ElementSize) {
+function randomPrivateKey(keySize, elementSize) {
      let priv = [];
      for (i = 0; i < keySize; i++) {
-          priv.push(randomString(ElementSize));
+          priv.push(randomString(elementSize));
      }
      return priv;
 }
