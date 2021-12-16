@@ -10,7 +10,7 @@ let ELEMENT_SIZE = 32;
  * @returns
  */
 function randomString(elementSize) {
-     return crypto.randomBytes(elementSize).toString('hex');
+     return crypto.randomBytes(elementSize).toString(ENCODING);
 }
 
 /**

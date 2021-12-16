@@ -1,6 +1,6 @@
 # Lamport algorithm example
 
-To show how to implement lamport algorithm on nodejs
+In cryptography, a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature. The purpose is to show, How to implement Lamport on NodeJS?
 
 ![Lamport](./lamport.png)
 
@@ -11,5 +11,9 @@ To show how to implement lamport algorithm on nodejs
 ```bash
 node lamport.js
 ```
+
+References Posts:
+
+https://medium.com/asecuritysite-when-bob-met-alice/lamport-signatures-for-a-post-quantum-computing-world-279cb088570e
 
 Thanks
